@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: ifaa-app
-          image: ifaaacr.azurecr.io/ifaa:latest
+          image: ifaacont.azurecr.io/ifaa:latest
           ports:
             - containerPort: 8000
           envFrom:
