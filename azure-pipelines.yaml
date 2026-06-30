@@ -4,7 +4,7 @@ trigger:
       - main
 
 variables:
-  acrConnection: 'azure_connection_ifaa'
+  acrConnection: 'azure_connection_acr'
   azureSubscription: 'azure_service_ifaa'
   imageRepository: 'ifaa-project'
   containerRegistry: 'ifaacont.azurecr.io'
